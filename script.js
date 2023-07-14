@@ -20,8 +20,14 @@ let currentNode;
           if (currentNode != undefined) {
             currentNode.classList.remove("selected");
           }
-          ratingValue = node.getAttribute("value");
           node.classList.add("selected");
           currentNode = node;
         };
+      });
+
+      document.querySelectorAll(".round").forEach((rate) =>{
+        rate.addEventListener("click",()=>{
+          ratingValue = rate.innerHTML;
+        })
+        
       });
