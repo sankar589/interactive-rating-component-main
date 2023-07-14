@@ -41,4 +41,3 @@ The designs were created to the following widths:
 - Website - [sankar589](https://github.com/sankar589)
 - Frontend Mentor - [sankar589](https://www.frontendmentor.io/profile/sankar589)
 
-
